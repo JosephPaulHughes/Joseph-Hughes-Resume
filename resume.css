@@ -12,6 +12,8 @@
 
 .yui-t7 {
     max-width: 1110px;
+    display: grid;
+    margin: auto;
 }
 
 .msg { padding: 10px; background: #222; position: relative; }
