@@ -10,6 +10,9 @@
 ---------------------------------------------------------------------------------
 */
 
+.yui-t7 {
+    max-width: 1110px;
+}
 
 .msg { padding: 10px; background: #222; position: relative; }
 .msg h1 { color: #fff;  }
