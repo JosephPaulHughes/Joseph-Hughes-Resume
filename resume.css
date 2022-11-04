@@ -114,14 +114,7 @@ a#pdf:hover { background: #222; }
 }
 
 .talent1, .talent2, .talent3 { 
-    flex-shrink: 0;
-	height: calc(119px + 6vw);
-	width: calc(119px + 6vw);
-	border: calc(8px + 0.2vw) solid transparent;
-	background-origin: border-box;
-	background-clip: content-box, border-box;
-	background-size: cover;
-	box-sizing: border-box;
+
     border-radius: 10%;
 }
 
@@ -133,32 +126,30 @@ a#pdf:hover { background: #222; }
     white-space: nowrap;
 }
 
-.image img:hover{
-}
-
 .image img {
-    position: absolute;
-    top: 2px;
-    left: 2px;
     border-radius: 10%;
+}
+/* border: 3px solid; */
+.image-wrapper {
+    position: relative;
+    height: 108px;
+    width: 186px;
+    border-radius: 10%;
+    background-image: linear-gradient(#d2f947, #0fd850);
 }
 
 .image {
-    position: relative;
-}
-
-.image:hover {
-    position: relative;
-    height: 106px;
-    width: 184px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
     border-radius: 10%;
-	background-image: linear-gradient(#f9f047, #0fd850);
 }
 
 .yui-u.main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-bottom: 20px;
+        gap: 20px;
 }
 
 .yui-u h3 strong:first-child {
