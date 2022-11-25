@@ -181,12 +181,15 @@ a#pdf:hover { background: #222; }
 .yui-gf div.first{width:12.3%;}
 
 .yui-u.last {
+    display: grid;
+    grid-template-columns: 1fr 35px;
 }
 
 .yui-u.last h2 {
 }
 
 .yui-u.last h4 {
+     font-weight: 800;
 }
 
 html{color:#000;background:#FFF;}
