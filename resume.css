@@ -22,7 +22,7 @@ body { font-family: Georgia; color: #444; }
 
 /* //-- header, body, footer -- */
 #hd { 
-    margin: 2.5em 0 3em 0; 
+    margin: 2.5em 0 2em 0; 
     padding-bottom: 10px; 
     border-bottom: 1px solid #ccc 
 }
@@ -58,7 +58,6 @@ p.enlarge {
     font-size: 144%; 
     padding-right: 5px; 
     line-height: 24px; 
-    padding-bottom: 10px;
 }
 p.enlarge span { color: #000 }
 .contact-info { 
@@ -82,8 +81,16 @@ p.enlarge span { color: #000 }
 
 /* //-- section styles -- */
 
-a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
-a#pdf:hover { background: #222; }
+a#pdf { 
+    display: block;
+    float: left;
+    background: #666;
+    color: white;
+    padding: 6px 20px 6px 20px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    text-decoration: none; 
+}
 
 .job { position: relative; 
     border-bottom: 1px solid #ccc; }
@@ -126,7 +133,6 @@ a#pdf:hover { background: #222; }
     display: grid; 
     font-weight: 700;
     padding-right: 23px;
-    padding-bottom: 10px;
 }
 
 .talent h4{
@@ -141,7 +147,6 @@ a#pdf:hover { background: #222; }
 }
 
 .talent h2, .talent1 h2, .talent2 h2, .talent3 h2 { 
-    margin-bottom: 6px;
     font-size: 18px;
     font-weight: 900;
     text-align: center;
@@ -170,7 +175,6 @@ a#pdf:hover { background: #222; }
 .yui-u.main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-bottom: 20px;
         gap: 20px;
 }
 
@@ -285,7 +289,7 @@ body{text-align:center;}
 .yui-t5 #yui-main .yui-b{margin-right:19.4615em;*margin-right:19.125em;}
 .yui-t6 .yui-b{float:right;width:23.0769em;*width:22.50em;}
 .yui-t6 #yui-main .yui-b{margin-right:24.0769em;*margin-right:23.62em;}
-.yui-t7 #yui-main .yui-b{display:block;margin:0 0 1em 0;}#yui-main .yui-b{float:none;width:auto;}
+.yui-t7 #yui-main .yui-b{display:block;margin:0 0 -15px 0;}#yui-main .yui-b{float:none;width:auto;}
 .yui-gb .yui-u,.yui-g .yui-gb .yui-u,.yui-gb .yui-g,.yui-gb .yui-gb,.yui-gb .yui-gc,.yui-gb .yui-gd,.yui-gb .yui-ge,.yui-gb .yui-gf,.yui-gc .yui-u,.yui-gc .yui-g,.yui-gd .yui-u{float:left;}
 .yui-g .yui-u,.yui-g .yui-g,.yui-g .yui-gb,.yui-g .yui-gc,.yui-g .yui-gd,.yui-g .yui-ge,.yui-g .yui-gf,.yui-gc .yui-u,.yui-gd .yui-g,.yui-g .yui-gc .yui-u,.yui-ge .yui-u,.yui-ge .yui-g,.yui-gf .yui-g,.yui-gf .yui-u{float:right;}
 .yui-g div.first,.yui-gb div.first,.yui-gc div.first,.yui-gd div.first,.yui-ge div.first,.yui-gf div.first,.yui-g .yui-gc div.first,.yui-g .yui-ge div.first,.yui-gc div.first div.first{float:left;}
@@ -344,4 +348,8 @@ li{list-style:none;}
 
 .yui-gf .yui-u {
     position: relative;
+    padding-bottom: 15px;
+}
+
+.yui-u.last {
 }
