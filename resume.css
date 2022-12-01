@@ -105,6 +105,13 @@ a#pdf:hover { background: #222; }
     font-weight: 900; 
 }
 
+.job h5 { 
+    position: absolute; 
+    top: 20px;
+    right: -10px;
+    font-weight: 900; 
+}
+
 .job.last {
     margin-bottom: -15px;
 }
