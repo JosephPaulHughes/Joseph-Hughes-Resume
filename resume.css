@@ -29,19 +29,29 @@ body {
 }
 #inner {
   padding: 10px 80px;
-  margin: 80px auto;
+  margin-top: 80px;
+  margin-bottom: 200px;
   background: #ededed;
-  border: solid #666;
-  border-width: 8px 0 2px 0;
+  border-top: 8px solid #666;
+  border-bottom: 2px solid #666;
 }
 
 #innertwo {
-  border: solid #666;
-  border-width: 8px 0 0 0;
+  padding: 10px 80px;
+  margin: 80px auto;
+  background: #ededed;
+  border-bottom: 2px solid #666;
+}
+
+.space {
+  border-bottom: 8px solid #666;
+  margin-left: -80px;
+  margin-right: -80px;
+  margin-top: -9px;
+  margin-bottom: 15px;
 }
 
 .yui-gf {
-  margin-bottom: 2em;
 }
 
 /* //-- header, body, footer -- */
@@ -50,6 +60,11 @@ body {
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
+
+#hd:last-child {
+  border-bottom: none;
+}
+
 #hd h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -60,7 +75,7 @@ body {
 
 /* //-- footer -- */
 #ft {
-  padding: 1em 0 2em 0;
+  padding: 1em 0 1em 0;
   font-size: 92%;
   border-top: 1px solid #ccc;
   text-align: center;
@@ -251,8 +266,9 @@ a#pdf {
 
 .image img {
   border-radius: 10%;
+  /* border: solid 3px #0fd850; */
 }
-/* border: 3px solid; */
+
 .image-wrapper {
   position: relative;
   height: 108px;
@@ -843,6 +859,16 @@ body {
 .yui-ge,
 .yui-gf {
   zoom: 1;
+}
+
+.yui-gf {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.yui-gf:first-child {
+  border-top: none;
+  padding-top: 0px;
 }
 
 li {
